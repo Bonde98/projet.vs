@@ -1,0 +1,115 @@
+/* general role*/
+body{
+    background: rgb(69, 148, 86);
+    color:#000000;
+    margin: 0 100px;
+}
+
+a {
+    text-decoration:none ;
+}
+nav{
+    padding-bottom: 100px ;
+background: #fff;
+    }
+nav h1{
+    float:left;
+    font-size:35px;
+    letter-spacing: 3px; 
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #2d0bc7 ;
+    border-bottom: 2px solid #000000;
+}
+nav h1 span{
+    color:rgb(26, 211, 66)
+}
+
+nav ul {
+    background: #fff;
+    margin: 25px ;
+    padding: 10px ;
+    float:right;
+    overflow:hidden ;
+    margin-right: 30px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin:10px;
+    overflow: hidden;
+}
+
+nav ul li a{
+    color:rgb(26, 211, 66);
+    font-size: 25px;
+}
+
+.text-header { 
+    text-align: center;
+    background: white
+    pading: 10px 0;
+    color: #fff;
+    background: #999;
+    margin-bottom: 20px;
+}
+.text-header h1{
+    font-size: 50px;
+}
+
+div.section-un {
+    background: #fff;
+    margin-top: -20px;
+    padding: 20px;
+}
+h1.title ,p.desc{
+    text-align: center;
+}
+div.section-image{
+    margin: 100px;;
+    font-display:initial/25%;
+    margin-left: 100px;
+   
+}
+div.section-image ,img.image{
+    width: 500px;
+    height: auto;
+    margin: 10px 0;
+   
+}
+/*A propos*/
+
+p{
+   color: rgb(22, 2, 2);
+}
+p.about a{
+    color: #fff;
+}
+div.footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+    
+}
+
+#agence{
+    font-size: 25px;
+    border-collapse:initial;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 100px;
+}
+#agence th{
+    padding-top: 10px;
+    padding: 10px;
+    background:#4caf50;
+    color: white;
+}
+#agence td{
+    border: 1px solid white;
+    padding: 3px;
+    text-align: left;
+    font-size: 18px;
+}
